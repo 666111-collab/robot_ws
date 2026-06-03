@@ -1,0 +1,8 @@
+# Default parameters for the obstacle_aware_cruise node.
+# Override at runtime: ros2 launch robot_behavior behavior.launch.py params_file:=<path>
+obstacle_aware_cruise:
+  ros__parameters:
+    front_sector_deg: 60.0   # frontal cone width we watch [deg]
+    stop_distance: 0.5       # obstacle closer than this -> stop & turn [m]
+    cruise_speed: 0.15       # forward speed when path is clear [m/s]
+    turn_speed: 0.6          # yaw speed while avoiding [rad/s]

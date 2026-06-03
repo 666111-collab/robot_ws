@@ -1,0 +1,23 @@
+# colcon 生成物
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器 / 系统
+.vscode/
+*.swp
+.DS_Store
+
+# Claude Code 本地个人配置
+.claude/settings.local.json
+
+# 不公开的内部 demo 脚本
+docs/demo_script.md
+docs/session_prompts/m7-walkthrough.md
+
+# 大体积演示视频（按需放开；GIF 通常保留用于 README 展示）
+# media/*.mp4
